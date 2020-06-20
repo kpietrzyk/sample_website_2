@@ -8,6 +8,14 @@ p.highlighted {
     font-size: 1.5em;
     background: yellow;
 }
+#main-header {
+    background-color: orange;
+    }
+
+.bio-bg-change {
+    background-color: azure;
+}
+
 a {
     color: red;
 }
