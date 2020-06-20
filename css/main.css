@@ -8,3 +8,21 @@ p.highlighted {
     font-size: 1.5em;
     background: yellow;
 }
+a {
+    color: red;
+}
+li {
+    border: 1px solid black;
+}
+li a {
+    color: red;
+}
+#exec-bio {
+    background-color: lightgray;
+}
+.bio-box {
+    border: 1px solid black;
+}
+.bio-box a {
+    color: green;
+}
