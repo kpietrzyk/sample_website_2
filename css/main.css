@@ -12,7 +12,7 @@ p.highlighted {
     background-color: orange;
     }
 
-.bio-bg-change {
+.bio-bg {
     background-color: azure;
 }
 
@@ -30,7 +30,16 @@ li a {
 }
 .bio-box {
     border: 1px solid black;
+    width: 50%;
 }
 .bio-box a {
     color: green;
+
+}
+.bio-box a {
+    color: pink;
+}
+
+.alert {
+    background-color: blue;
 }
