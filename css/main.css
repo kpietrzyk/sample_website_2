@@ -1,45 +1,47 @@
-body {
-    color: black;
-}
-p {
-    font-size: 1em;
-}
-p.highlighted {
-    font-size: 1.5em;
-    background: yellow;
-}
-#main-header {
-    background-color: orange;
-    }
 
-.bio-bg {
-    background-color: azure;
+/* GLOBAL STYLES */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
 }
-
+h1 {
+    font-size: 7vw;
+    margin-top: 0;
+}
 a {
-    color: red;
+    color: #f00;
 }
-li {
-    border: 1px solid black;
+
+/* HERO STYLES */
+.full-hero {
+    background-color: #c7dbfc;
+    height: 50vw;
+    width: 50vw;
 }
-li a {
-    color: red;
+
+/* SOCIAL STYLES */
+.social-link {
+    background: rgba(150, 150, 150, 0.5);
+    color: blue;
 }
-#exec-bio {
-    background-color: lightgray;
+
+/* BIO STYLES */
+.bio-wrapper {
+    font-size: 24px;
 }
 .bio-box {
     border: 1px solid black;
+    font-size: 1em;
     width: 50%;
 }
-.bio-box a {
+.bio-box h3 {
+    font-size: 1.5em;
+}
+.bio-copy {
+    font-size: 1em;
+}
+.bio-copy a {
     color: green;
-
-}
-.bio-box a {
-    color: pink;
 }
 
-.alert {
-    background-color: blue;
-}
