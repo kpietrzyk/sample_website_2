@@ -1,71 +1,111 @@
 /* GLOBAL STYLES */
+
 body {
   font-family: helvetica, arial, sans, monospace;
 }
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
 }
+
 a {
   color: #f00;
 }
 
-h2 ~ p {
+h2~p {
   font-size: 0.8em;
   font-style: italic;
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
 }
+
 /* HEADER STYLES */
+
+.header {
+  background-color: #000;
+  color: #fff;
+}
+
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
 }
-.header-nav > li {
+
+.header-nav>li {
   display: inline-block;
   margin-left: 1em;
 }
 
-.header-nav > li ~ li {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
+.header-nav>li~li {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
 
 .header-nav a {
-  color: #000;
+  color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .header-nav a:hover,
 .header-nav a:active {
   color: #ed6e2f;
-}.header-nav a:hover,
+}
+
+.header-nav a:hover,
 .header-nav a:active {
   opacity: 0.5;
- }
- .header-nav > li:first-child a {
-   color: #ed6e2f;
- }
- .header-nav > li:first-child a:hover {
-   color: #000;
- }
- .header-nav > li:last-child a{
-   color: #0000ff;
- }
+}
+
+.header-nav>li:first-child a {
+  color: #ed6e2f;
+}
+
+.header-nav>li:first-child a:hover {
+  color: #fff;
+}
+
+.header-nav>li:last-child a {
+  color: #0000ff;
+}
+.header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+
+.header-logo img {
+  height: 80%;
+}
+.header-logo:hover,
+.header-logo:active {
+  background-color: #ed6e2f;
+}
+
 
 /* HERO STYLES */
+
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
 }
+
 .full-hero:hover,
 .full-hero:active {
   background-color: aliceblue;
 }
+
 /* SOCIAL STYLES */
+
 .social-link {
   background: rgba(150, 150, 150, 0.5);
   border-radius: 99px;
@@ -83,27 +123,32 @@ h2 ~ p {
   vertical-align: middle;
   width: 2.5em;
 }
+
 .social-link:active,
-.social-link:hover{
+.social-link:hover {
   background-color: #042434;
 }
+
 .social-list {
   list-style: none;
   padding: 0;
   text-align: center;
 }
-.social-list > li {
+
+.social-list>li {
   display: inline-block;
   margin: 0 0.5em;
 }
 
 /* BIO STYLES */
+
 .bio-wrapper {
   font-size: 24px;
   margin: auto;
   max-width: 960px;
   overflow: hidden;
 }
+
 .bio-box {
   border: 1px solid black;
   box-sizing: border-box;
@@ -113,12 +158,14 @@ h2 ~ p {
   padding: 2%;
   width: 23%;
 }
+
 .bio-box h3 {
   color: #fff;
   font-size: 1.5em;
   margin: -40px 0 1em;
   text-align: center;
 }
+
 .bio-box img {
   width: 100%;
 }
@@ -127,10 +174,12 @@ h2 ~ p {
   display: block;
   margin: 2em 0 1em;
 }
+
 .bio-copy {
   font-size: 1em;
   line-height: 1.5;
 }
+
 .bio-copy a {
   color: green;
 }
